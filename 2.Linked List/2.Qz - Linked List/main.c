@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct node
 {
     int data;
@@ -9,7 +8,6 @@ struct node
 
 int main()
 {
-
     int numNodes;
     printf("Enter how many nodes: ");
     scanf("%d", &numNodes);
@@ -19,7 +17,6 @@ int main()
 
     for (int i = 0; i < numNodes; i++)
     {
-
         int value;
         printf("Enter the value of %d node", i + 1);
         scanf("%d", &value);
